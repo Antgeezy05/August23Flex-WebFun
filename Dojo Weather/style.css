@@ -1,0 +1,144 @@
+
+
+
+/* Main content */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border: solid 1px black;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: lightskyblue;
+    color: white;
+    font-weight: bold;
+}
+.trash {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 200px;
+    font-weight: bold;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 75%;
+    border-bottom: solid 1px black;;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.row2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.trashPanda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+}
+.temperature {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+.show {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+/*Weather columns*/
+.column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    padding-top: 30px;
+}
+.weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 300px;
+    justify-content: flex-start;
+    background-color: rgb(228, 222, 222);
+    margin: 30px;
+}
+.img {
+    width: 80px;
+}
+.high {
+    color: red;
+}
+.low {
+    color: blue;
+}
+/*footer Alert*/
+.cookies {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    color: black;
+    font: bold;
+    padding: 10px;
+    border: solid 1px black;
+}
+.chip {
+    width: 60px;
+}
+.accept {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 100%;
+    color: black;
+    font: bold;
+    padding-left: 10px;
+}
